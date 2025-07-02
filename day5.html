@@ -9,24 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Rubik:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
 
     <style>
-        /* Selects the first <div> inside the parent */
+       
         div:first-child {
             color: violet;
         }
 
-        /* This was incorrect - corrected version below (apply to all divs except 2nd child) */
+     
         div:not(:nth-child(2)) {
             background-color: aqua;
             
             line-height: 3;
         }
 
-        /* Apply green background to all <p> inside the last <div>, except the 2nd <p> */
         div:last-child p:not(:nth-child(2)) {
             background-color: green;
         }
 
-        /* Corrected 'para' selector and styles */
+      
         para {
             font-family: 'Fathic Medium', 'Arial Narrow', Arial, sans-serif;
             font-weight: 500;
